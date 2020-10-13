@@ -1,3 +1,7 @@
+关于该项目的原理，可以参考[GAN网络之入门教程（五）之基于条件cGAN动漫头像生成](https://www.cnblogs.com/xiaohuiduan/p/13791700.html)
+
+关于更多GAN网络的原理，可以参考[GAN网络入门](https://www.cnblogs.com/xiaohuiduan/category/1799415.html)
+
 ### 目的
 
 使用条件GAN网络，根据标签生成个性化的图片，如下图所示：
