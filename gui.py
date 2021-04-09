@@ -63,8 +63,11 @@ def build_generator():
 
 
 def load_generators():
+    '''
+        加载模型
+    '''
     g = build_generator()
-    g.load_weights(str(10000) + '_GENERATOR.hdf5')
+    g.load_weights('./model/'+str(10000) + '_GENERATOR.hdf5')
     return g
 
 
@@ -115,8 +118,7 @@ comboxlist2["values"] = (
 comboxlist2.current(0)
 comboxlist2.pack()
 
-bm = tk.PhotoImage(file='anime.png')
-label = tk.Label(win, image=bm)
+label = tk.Label(win)
 label.pack()
 
 b = tk.Button(win,
