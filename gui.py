@@ -64,7 +64,7 @@ def build_generator():
 
 def load_generators():
     '''
-        加载模型
+        加载模型，选择模型
     '''
     g = build_generator()
     g.load_weights('./model/'+str(10000) + '_GENERATOR.hdf5')
@@ -75,7 +75,7 @@ def load_generators():
 G = load_generators()
 # 创建窗体
 win = tk.Tk()
-win.title('可视化GUI')
+win.title('生成动漫头像')
 win.geometry('400x200')
 
 

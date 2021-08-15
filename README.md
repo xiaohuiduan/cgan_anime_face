@@ -2,19 +2,24 @@
 
 关于更多GAN网络的原理，可以参考[GAN网络入门](https://www.cnblogs.com/xiaohuiduan/category/1799415.html)
 
+### 运行环境
+
+- keras：2.3.1
+- tensorflow：1.14.0
+
 ### 目的
 
 使用条件GAN网络，根据标签生成个性化的图片，如下图所示：
 
-1.  ![](1.png)
+1.  ![](readme_img/1.png)
 
 改变选项后生成图片如下所示：
-2.  ![](2.png)
+2.  ![](readme_img/2.png)
 
 ### 文件介绍
 
 1. faces 文件夹☞数据集
-2. generate 文件夹☞训练过程产生的图片
+2. generate_img 文件夹☞训练过程产生的图片
 3. model 文件夹☞训练好的模型
 4. main.ipynb ☞ 训练代码 
 5. gui.py ☞ gui代码
@@ -22,16 +27,16 @@
 
 ### G网络模型图：
 
-![](generator.png)
+![](readme_img/generator.png)
 
 ### D网络模型图:
 
-![](discriminator.png)
+![](readme_img/discriminator.png)
 
 
 ### gan网络模型图
 
-![](gan.png)
+![](readme_img/gan.png)
 
 ### 参考
 
