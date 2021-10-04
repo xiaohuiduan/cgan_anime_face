@@ -2,6 +2,9 @@
 
 关于更多GAN网络的原理，可以参考[GAN网络入门](https://www.cnblogs.com/xiaohuiduan/category/1799415.html)
 
+关于用网页的形式展示该项目，可以参考项目[cgan_web](https://github.com/xiaohuiduan/cgan_web)
+![](https://user-images.githubusercontent.com/40485068/135795600-f9b3f743-346b-404a-a254-7401db7b8b66.png)
+
 ### 运行环境
 
 - keras：2.3.1
@@ -25,18 +28,6 @@
 5. gui.py ☞ gui代码
 6. tags_clean.csv 图片标签数据
 
-### G网络模型图：
-
-![](readme_img/generator.png)
-
-### D网络模型图:
-
-![](readme_img/discriminator.png)
-
-
-### gan网络模型图
-
-![](readme_img/gan.png)
 
 ### 参考
 
