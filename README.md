@@ -7,8 +7,9 @@
 
 ### 运行环境
 
-- keras：2.3.1
-- tensorflow：1.14.0
+- keras：2.2.0
+- tensorflow：1.14.0 ：下载地址https://github.com/mind/wheels/releases/tag/tf1.4-cpu
+- python：3.5.6
 
 ### 目的
 
